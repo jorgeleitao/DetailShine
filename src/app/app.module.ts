@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ProductlistComponent } from './components/functions/productlist/productlist.component';
+import { DilutioncalculatorComponent } from './components/functions/dilutioncalculator/dilutioncalculator.component';
 
 
 @NgModule({
@@ -12,12 +14,14 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-
+    ProductlistComponent,
+    DilutioncalculatorComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule,
+
+],
   providers: [],
   bootstrap: [AppComponent]
 })
