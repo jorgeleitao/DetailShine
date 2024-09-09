@@ -1,0 +1,11 @@
+{
+ "listproducts": [
+    {
+      "brand": "Vonixx",
+      "category": "APC/MPC",
+      "name": "sintra",
+      "quantity": "1L",
+      "image": "{{url_imagem}}"
+    }
+   ]
+}
