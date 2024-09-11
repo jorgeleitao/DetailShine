@@ -3,9 +3,9 @@
     {
       "brand": "Vonixx",
       "category": "APC/MPC",
-      "name": "sintra",
-      "quantity": "1L",
-      "image": "{{url_imagem}}"
+      "name": "sintra pro",
+      "quantity": "1,5L",
+      "image": "{{https://images.tcdn.com.br/img/img_prod/1060217/sintra_pro_693_1_62b0743eff50378de6796ca62635b16b.png}}"
     }
    ]
 }
