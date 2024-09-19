@@ -5,12 +5,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { DilutioncalculatorComponent } from './modules/dilution-calculator/dilutioncalculator.component';
 import { CustcalculatorComponent } from './modules/cust-calculator/custcalculator.component';
-import { BodyComponent } from './components/body/body.component';
+
 
 const routes: Routes = [
   {
     path : '',
-    redirectTo: 'body',
+    component: ListProductComponent,
     pathMatch: 'full'
   },
 
@@ -30,10 +30,7 @@ const routes: Routes = [
     path: 'cust-calculator',
     component: CustcalculatorComponent
   },
-  {
-    path: 'body',
-    component: BodyComponent
-  }
+  
 
 ];
 

@@ -10,23 +10,20 @@ import { SubSink } from 'subsink';
   styleUrls: ['./list-product.component.scss']
 })
 export class ListProductComponent implements OnInit{
-calcularCusto() {
-throw new Error('Method not implemented.');
-}
-irParaCalculadora() {
-throw new Error('Method not implemented.');
-}
+
 
   constructor(
-    private products: ProductsService,
+    private productsService: ProductsService,
 
   ){ }
 
-  public produtos : Products[] | undefined;
+  public produtos : Products[] = [];
   private subSink = new SubSink();
 
 
   ngOnInit(){
+    this.serviceSubscription()
+
   }
   ngOnDestroy(){
     this.subSink.unsubscribe();
@@ -34,18 +31,11 @@ throw new Error('Method not implemented.');
 
   serviceSubscription(){
     this.subSink.add(
-      this.products.getProducts()
-        .subscribe(
-          retorno => {
-            this.produtos = retorno.map( item =>{
-              return new Products(
-              item.category,
-              item.brand,
-              item.name,
-              item.quantity,
-              item.image
-              )
-            })
+      this.productsService.getProducts()
+      .subscribe(
+        retorno => {
+          console.log(retorno)
+          this.produtos = retorno
           }
         )
     )

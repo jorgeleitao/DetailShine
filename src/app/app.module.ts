@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ListProductComponent } from './modules/list-product/list-product.component';
 import { HttpClientModule } from '@angular/common/http';
-import { BodyComponent } from './components/body/body.component';
+
 
 
 
@@ -18,7 +18,7 @@ import { BodyComponent } from './components/body/body.component';
     HeaderComponent,
     FooterComponent,
     ListProductComponent,
-    BodyComponent,
+
 
   ],
   imports: [
