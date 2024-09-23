@@ -1,3 +1,6 @@
+
+@import '../../modules/abstract/mixins';
+
 #header{
   display: flex;
   background-color: rgb(0, 0, 0);
@@ -14,7 +17,7 @@
 
     font-size: 40px;
     font-family:'Bungee Tint';
-    color: rgb(204, 17, 17);
+    color: rgb(233, 12, 12);
 
   }
 
@@ -34,7 +37,7 @@
     .btn__cust, .btn__calculator{
       color: white;
       border-radius: 20px;
-      background-color: rgb(13, 51, 156);
+      background-color: rgb(255, 0, 0);
       padding: 10px 20px;
       cursor: pointer;
 

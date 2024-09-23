@@ -1,14 +1,19 @@
-<section id="body-container">
-  <h1>Lista de produtos: </h1>
-  <ul  class="body_container">
-    <li *ngFor="let produto of produtos">
-      <header>
+<section id="products" >
+  <h1 class="products__title">Lista de produtos</h1>
+
+  <ul class="products__items">
+    <li class="products__item" *ngFor="let produto of produtos">
+      <header class="products__item-header">
           {{produto.name}}
       </header>
-      <content>
-        <img style="width: 15%;" [src]="produto.image" alt="">
-      </content>
-      <footer></footer>
+      
+      <div class="products__item-content">
+        <img class="products__item-image" [src]="produto.image" alt="">
+      </div>
+      <footer class="products__item-footer">
+        {{produto.category}}
+      </footer>
     </li>
   </ul>
 </section>
+
