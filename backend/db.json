@@ -23,17 +23,24 @@
     },
     {
       "brand": "Vonixx",
-      "category": "shampoo desemgraxante",
-      "name": "MOTO-V",
+      "category": "Removedor de Piche e Cola",
+      "name": "STRIKE",
       "quantity": "1,5L",
-      "image": "https://images.tcdn.com.br/img/img_prod/1060217/sintra_pro_693_1_62b0743eff50378de6796ca62635b16b.png"
+      "image": "https://images.tcdn.com.br/img/img_prod/1060217/strike_643_1_0247f7240e42b81a9b2c51dc1f44d27a.png"
     },
     {
       "brand": "Vonixx",
-      "category": "multilimpador para limpeza pesada",
+      "category": "Multilimpador para Limpeza Pesada",
       "name": "IMPACT",
       "quantity": "1,5L",
-      "image": "https://images.tcdn.com.br/img/img_prod/1060217/sintra_pro_693_1_62b0743eff50378de6796ca62635b16b.png"
+      "image": "https://images.tcdn.com.br/img/img_prod/1060217/impact_483_1_662a244bca2e8d4efbf66d20ad2459c1.png"
+    },
+    {
+      "brand": "Vonixx",
+      "category": "Shampoo Desemgraxante",
+      "name": "MOTO-V",
+      "quantity": "1,5L",
+      "image": "https://images.tcdn.com.br/img/img_prod/1060217/moto_v_701_2_b6d49d358a054c8e5a40a7eb63c0a3e9.png"
     },
     {
       "brand": "Vonixx",
@@ -41,13 +48,6 @@
       "name": "V-ECO PRO",
       "quantity": "1,5L",
       "image": "https://images.tcdn.com.br/img/img_prod/1060217/sintra_pro_693_1_62b0743eff50378de6796ca62635b16b.png"
-    },
-    {
-      "brand": "Vonixx",
-      "category": "removedor de piche e cola",
-      "name": "STRIKE",
-      "quantity": "1,5L",
-      "image": "https://images.tcdn.com.br/img/img_prod/1060217/strike_643_1_0247f7240e42b81a9b2c51dc1f44d27a.png"
     },
     {
       "brand": "Vonixx",
